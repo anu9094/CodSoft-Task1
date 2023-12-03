@@ -1,0 +1,93 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+header{
+   width: 1500px;
+   height: 800px;
+   background: linear-gradient( to right, rgba(9, 132, 227,1.0) ,red,yellow );
+
+}
+.top-nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 70px;
+}
+.icon i:first-child{
+   background-color: #e84393;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 20px;
+}
+.icon i:hover{
+   background: #e84393;
+   color: white;
+   transition: 0.4s;
+}
+.icon i{
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 20px;
+   color: black;
+   margin: 0px 4px;
+}
+nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 70px;
+}
+.menu a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding: 10px 20px;
+   font-weight: bold;
+   border-radius: 5px;
+}
+.menu a:first-child{
+   background: #e84393;
+   color: white;
+}
+.menu a:hover{
+   
+       background: #e84393;
+       color: white;
+       transition: 0.4s;
+   
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px 70px;
+}
+.left{
+   flex-basis: 50%;
+}
+.right{
+   flex-basis: 20%;
+   text-align: right;
+}
+.left h1 span{
+   color:black;
+   padding: 0px 15px;
+   border-radius: 5px;
+}
+.left p{
+   margin: 30px 0px;
+   line-height: 2rem;
+}
+.left button{
+padding: 10px 20px;
+border: none;
+outline: none;
+background: #e84393;
+color: white;
+transition: 0.4s;
+border-radius: 5px;
+}
